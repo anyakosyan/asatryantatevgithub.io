@@ -1,0 +1,384 @@
+
+body {
+    opacity: .9;
+    width: 100%;
+    background: -moz-linear-gradient(top, rgba(3,51,99,0.9) 0%, rgba(5,51,97,0.92) 18%, rgba(8,51,94,0.93) 35%, rgba(10,51,92,0.94) 48%, rgba(13,51,89,0.95) 57%, rgba(15,51,87,0.96) 64%, rgba(18,51,84,0.97) 73%, rgba(20,51,82,0.97) 79%, rgba(23,51,79,0.98) 85%, rgba(25,51,77,0.98) 91%, rgba(28,51,74,0.99) 100%);
+    background: -webkit-linear-gradient(top, rgba(3,51,99,0.9) 0%,rgba(5,51,97,0.92) 18%,rgba(8,51,94,0.93) 35%,rgba(10,51,92,0.94) 48%,rgba(13,51,89,0.95) 57%,rgba(15,51,87,0.96) 64%,rgba(18,51,84,0.97) 73%,rgba(20,51,82,0.97) 79%,rgba(23,51,79,0.98) 85%,rgba(25,51,77,0.98) 91%,rgba(28,51,74,0.99) 100%);
+    background: linear-gradient(to bottom, rgba(3,51,99,0.9) 0%,rgba(5,51,97,0.92) 18%,rgba(8,51,94,0.93) 35%,rgba(10,51,92,0.94) 48%,rgba(13,51,89,0.95) 57%,rgba(15,51,87,0.96) 64%,rgba(18,51,84,0.97) 73%,rgba(20,51,82,0.97) 79%,rgba(23,51,79,0.98) 85%,rgba(25,51,77,0.98) 91%,rgba(28,51,74,0.99) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6033363', endColorstr='#fc1c334a',GradientType=0 );
+}
+html {
+    font-size: 16px;
+}
+.font-8 {
+    font-size: 0.5rem;
+}
+.font-9 {
+    font-size: 0.5625rem;
+}
+.font-10 {
+    font-size: 0.625rem;
+}
+.font-11 {
+    font-size: 0.6875rem;
+}
+.font-12 {
+    font-size: 0.75rem;
+}
+.font-13 {
+    font-size: 0.8125rem;
+}
+.font-14 {
+    font-size: 0.875rem;
+}
+.font-15 {
+    font-size: 0.9375rem;
+}
+.font-16 {
+    font-size: 1rem;
+}
+.font-17 {
+    font-size: 1.0625rem;
+}
+.font-18 {
+    font-size: 1.125rem;
+}
+.font-20 {
+    font-size: 1.25rem;
+}
+.font-22 {
+    font-size: 1.375rem;
+}
+.font-24 {
+    font-size: 1.5rem;
+}
+.font-26 {
+    font-size: 1.625rem;
+}
+.font-28 {
+    font-size: 1.75rem;
+}
+.font-30 {
+    font-size: 1.875rem;
+}
+.font-42 {
+    font-size: 2.625rem;
+}
+.font-48 {
+    font-size: 3rem;
+}
+.font-56 {
+    font-size: 3.5rem;
+}
+.font-60 {
+    font-size: 3.75rem;
+}
+.font-70 {
+    font-size: 4.375rem;
+}
+.font-80 {
+    font-size: 5rem;
+}
+.font-semi-bold {
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: 600;
+}
+.font-bold {
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: 800;
+}
+.font-medium {
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: 500;
+}
+.container-main {
+    width: 80%;
+    background-color: white;
+    box-shadow:  5px 5px 50px 30px rgba(0,0,0,.5);
+}
+.left-wrapp, .right-wrapp {
+    width: 50%;
+    height: 100%;
+}
+.left-wrapp {
+    border-right: 4px dotted rgba(24, 67, 109,.8);
+}
+.main-title {
+    color: #1a446f;
+    word-spacing: 26px;
+}
+.appear1 {
+    -webkit-animation: appear 4s;
+    -o-animation: appear 4s;
+    animation: appear 4s;
+}
+.name::first-letter, .surname::first-letter {
+    font-size: 64px;
+    color: #22a6b3!important;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes appear-opacity {
+    0% {
+        opacity: 0;
+    } 90% {
+          opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.profession {
+    padding-right: 5%;
+    font-family: 'Montserrat',  sans-serif;
+    font-weight: 500;
+    color: #22a6b3;
+}
+.developer {
+    color: #1a446f;
+}
+
+.icons {
+    padding-right: 5%;
+    -webkit-animation: appear-opacity 6s;
+    -o-animation: appear-opacity 6s;
+    animation: appear-opacity 6s;
+}
+
+@keyframes hover {
+    0% {
+        left: -110%;
+        top: 90%;
+    }50% {
+         left: 10%;
+         top: -30%;
+     }100% {
+          top: -10%;
+          left: -10%;
+      }
+}
+.title-block, .link-block {
+    min-height: 300px;
+}
+
+.btn {
+    display: inline-block;
+
+    width: 70px;
+    height: 70px;
+    color: #1a446f;
+    background-color: #f1f1f1;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+}
+.btn:first-child {
+    margin-right: 10px;
+}
+.btn i {
+    line-height: 50px;
+    color: #22a6b3;
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+}
+.btn:hover i {
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+
+.btn:before {
+    content: "";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background-color: #22a6b3;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn:hover:before {
+    animation: hover 0.7s 1;
+    top: -10%;
+    left: -10%;
+
+}
+.btn:focus {
+    box-shadow: none;
+}
+@keyframes hover {
+    0% {
+        left: -110%;
+        top: 90%;
+    }50% {
+         left: 10%;
+         top: -30%;
+    }100% {
+      top: -10%;
+      left: -10%;
+    }
+}
+.contacts {
+    margin-left: 15%;
+}
+address, .contacts a {
+    color: #718093;
+}
+.contacts a, .tutor-link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.contacts a:before, .tutor-link:before {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background-color: #718093;
+
+}
+.contacts a:hover:before, .tutor-link:hover:before {
+    display: none;
+}
+
+.appear-from-left, .appear-from-right {
+    color: #22a6b3;
+    font-family: 'Montserrat',  sans-serif;
+}
+.appear-from-left {
+    -webkit-animation: appear-from-left 2s .5s both;
+    -o-animation: appear-from-left 2s .5s both;
+    animation: appear-from-left 2s .5s both;
+}
+.appear-from-right {
+    -webkit-animation: appear-from-right 2s .5s both;
+    -o-animation: appear-from-right 2s .5s both;
+    animation: appear-from-right 2s .5s both;
+}
+@keyframes appear-from-left {
+     0% {
+         -webkit-transform: translateX(-9999px);
+         -moz-transform: translateX(-9999px);
+         -ms-transform: translateX(-9999px);
+         -o-transform: translateX(-9999px);
+         transform: translateX(-9999px);
+     }
+     100% {
+         -webkit-transform: translateX(0);
+         -moz-transform: translateX(0);
+         -ms-transform: translateX(0);
+         -o-transform: translateX(0);
+         transform: translateX(0);
+     }
+ }
+@keyframes appear-from-right {
+    0% {
+        -webkit-transform: translateX(9999px);
+        -moz-transform: translateX(9999px);
+        -ms-transform: translateX(9999px);
+        -o-transform: translateX(9999px);
+        transform: translateX(9999px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.education-year, .experience-year, .ysu, .skills {
+    color: #1a446f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.faculty {
+    color: #718093;
+    font-weight: normal;
+}
+.tutor-link {
+    padding-left: 10px;
+    position: relative;
+    text-decoration: none;
+    color: #22a6b3;
+}
+.tutor-link:hover {
+    text-decoration: none;
+    color: #22a6b3;
+}
+.tutor-link:before {
+    background-color: #22a6b3;
+}
+.classes {
+    font-family: 'Montserrat',  sans-serif;
+    color: #718093;
+    font-weight: normal;
+}
+
+.main-progress {
+    height: 10px!important;
+    border-radius: 0px!important;
+}
+.progress-bar {
+    background-color: #22a6b3;
+}
+.main-skills {
+    color: #1a446f;
+    font-family: 'Montserrat',  sans-serif;
+}
+.wrapp-left-section  {
+    -webkit-animation: wrapp-left-section 1.5s 3s both;
+    -o-animation: wrapp-left-section 1.5s 3s both;
+    animation: wrapp-left-section 1.5s 3s both;
+}
+
+@keyframes wrapp-left-section {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.portfolio-menu {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+
+}
+
+.portfolio-img {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio {
+    color: #22a6b3;
+    right: 0;
+    bottom: 0;
+    font-family: 'Montserrat',  sans-serif;
+    letter-spacing: 8px;
+    text-decoration: none;
+    display: block;
+}
+
+.portfolio-link:before {
+    height: 4px;
+}
